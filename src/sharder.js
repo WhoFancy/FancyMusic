@@ -9,5 +9,5 @@ const manager = new ClusterManager(`${__dirname}/index.js`, {
     token: process.env.TOKEN || "YOUR_BOT_TOKEN", // <=== PASTE YOU TOKEN HERE
 });
 
-manager.on("clusterCreate", (cluster) => console.log(`[INFO] Fancy Launched Cluster ${cluster.id}`));
+manager.on("clusterCreate", (cluster) => console.log(`[INFO] Bot Launched Cluster ${cluster.id}`));
 manager.spawn({ timeout: -1 });
