@@ -1,7 +1,7 @@
 {
   "name": "Fancy",
   "version": "2.0.8",
-  "description": "Fancy Music by WhoFancy?",
+  "description": "Fancy Music Coded by WhoFancy?",
   "main": "sharder.js",
   "scripts": {
     "start": "node ./src/sharder.js"
@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/whofancy/Fancy.git"
+    "url": "git+https://github.com/WhoFancy/FancyMusic.git"
   },
   "bugs": {
-    "url": "https://github.com/whofancy/Fancy#issues"
+    "url": "https://github.com/WhoFancy/FancyMusic#issues"
   },
-  "homepage": "https://github.com/whofancy/Fancy/#readme",
+  "homepage": "https://github.com/WhoFancy/FancyMusic/#readme",
   "devDependencies": {
     "node": "^18.16.0"
   }
