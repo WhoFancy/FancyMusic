@@ -26,10 +26,10 @@ module.exports.run = async (client) => {
         const members = results[1].reduce((acc, memberCount) => acc + memberCount, 0);
 
         const status = [
-            { type: ActivityType.Playing, name: "Fancy is Launched! 🎉" },
-            { type: ActivityType.Listening, name: "/help" },
-            { type: ActivityType.Watching, name: `${servers} Guilds.` },
-            { type: ActivityType.Watching, name: `${members} Users.` },
+            { type: ActivityType.Playing, name: "Made with ❤ by NavyCodez" },
+            { type: ActivityType.Listening, name: "/help | @Fancy" },
+            { type: ActivityType.Watching, name: `On ${servers} Server with ${members} Users` },
+            { type: ActivityType.Watching, name: `Powered By: dsc.gg/fanccybots` },
         ];
 
         const index = Math.floor(Math.random() * status.length);
