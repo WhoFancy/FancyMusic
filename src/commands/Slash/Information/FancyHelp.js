@@ -43,7 +43,7 @@ module.exports = {
             })
             .setColor(client.color)
             .setDescription(
-                `👋🏻 Hey **${interaction.member}**, Me **${client.user}** \n\n<:dot:1137653464357421136> **__About Fancy__**\n**The Best Quality Music Bot With Breath Taking Music Features.** \n\n<:stats:1137416455525249044> **__Category Fancy__**\n<:information:1135759462876073984>  **Information**\n<:music:1137415986111328286>  **Music**\n<:stars:1137417390020362351>  **Premium**\n<:developer:1137416771800936518>  **Developer**\n<:playing:1137416085277249626>  **Filters**\n\n<:ping_Zyrex:1118527879282704445> **__Status Fancy__**\n<:home:1137416706537558076>  Guilds: **${client.guilds.cache.size}**\n<:ping:1135758846741188609>  Ping: **${Math.round(client.ws.ping)}ms**\n`
+                `👋🏻 Hey **${interaction.member}**, Me **${client.user}** \n\n<:dot:1137653464357421136> **__About Fancy__**\n**A best and advanced Discord-Music bots with Premium system and high quality music.** \n\n<:stats:1137416455525249044> **__Category Fancy__**\n<:information:1135759462876073984>  **Information**\n<:music:1137415986111328286>  **Music**\n<:stars:1137417390020362351>  **Premium**\n<:developer:1137416771800936518>  **Developer**\n<:playing:1137416085277249626>  **Filters**\n\n<:ping_Zyrex:1118527879282704445> **__Status Fancy__**\n<:home:1137416706537558076>  Server: **${client.guilds.cache.size}**\n<:ping:1135758846741188609>  Ping: **${Math.round(client.ws.ping)}ms**\n`
             )
             .setFooter({
                 text: `© Fancy 2023`,
