@@ -31,6 +31,7 @@ module.exports = {
 
         const row2 = new ActionRowBuilder()
             .addComponents(new ButtonBuilder().setLabel("Invite Fancy").setURL(inviteUrl).setStyle(ButtonStyle.Link))
+            .addComponents(new ButtonBuilder().setLabel("Dashboard").setURL("https://coomingsoon.com").setStyle(ButtonStyle.Link))
             .addComponents(new ButtonBuilder().setLabel("Vote Fancy").setURL(voteUrl).setStyle(ButtonStyle.Link))
             .addComponents(new ButtonBuilder().setLabel("Support Server").setURL(supportUrl).setStyle(ButtonStyle.Link));
 
