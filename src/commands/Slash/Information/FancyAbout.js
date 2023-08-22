@@ -40,10 +40,10 @@ module.exports = {
         const embed = new EmbedBuilder()
             .setAuthor({ name: `${interaction.guild.members.me.displayName} About Panel!`, iconURL: interaction.guild.iconURL({ dynamic: true }) })
             .setDescription(
-                `👋🏻 Hey **${interaction.member}**, Me **${client.user}** \n\n<:dot:1137653464357421136> **__About Fancy__**\n**The Best Quality Music Bot With Breath Taking Music Features.**`
+                `👋🏻 Hey **${interaction.member}**, Me **${client.user}** \n\n<:dot:1137653464357421136> **__About Fancy__**\n**A best and advanced Discord-Music bots with Premium system and high quality music.**`
             )
             .addFields([
-                { name: `<:home:1137416706537558076> Guilds`, value: `\`\`\`Total: ${scount} Guilds\`\`\``, inline: true },
+                { name: `<:home:1137416706537558076> Server`, value: `\`\`\`Total: ${scount} Server\`\`\``, inline: true },
                 { name: `<:users:1137416626053054555> Users`, value: `\`\`\`Total: ${mcount} Users\`\`\``, inline: true },
                 { name: `<:djs:1137416993977413673> Discord.js`, value: `\`\`\`v14.11.0\`\`\``, inline: true },
                 { name: `<:online:1137417691599216812> Node.js`, value: `\`\`\`v18.16.0\`\`\``, inline: true },
